@@ -4,6 +4,7 @@ const request = require("request");
 
 const app = express();
 
+//api key from openweather.org
 const apiKey = "**********************";
 
 app.use(express.static("public"));
